@@ -1,5 +1,95 @@
-nav-bg {
-  position:fixed;
-  width:100%;
-  z-index: -10;
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Open Sans', sans-serif;
+  
 }
+
+h1 {
+  font-size: 150%;
+  font-family: 'Proza Libre', sans-serif;
+  text-align:center;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+a {
+  color:#091d09;#091d09
+}
+
+main {
+  color:white;
+  opacity: 1;
+  padding:15px;
+}
+
+nav {
+  text-align: left;
+  float: left;
+  display:inline;
+  width: 15%;
+  padding:25px;
+  margin-top:20px;
+  
+}
+
+footer {
+  /* text-align: right; */
+  position: absolute;
+  top: 25%;
+  right:0;
+  margin-left: 30%;
+  margin-top:40px;
+  padding:10px;
+}
+
+#mainContainer {
+  background-color: rgb(26, 37, 26, 1);
+  margin-left: 20%;
+  margin-bottom: 1000px;
+}
+
+.nav-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color:#617761;
+}
+
+#topImage {
+  float:right;
+  margin-right:15px;
+}
+
+#bottomImage {
+  clear:both;
+  
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/* .firstPs {
+  display:inline;
+} */
+
+/* special fonts
+font-family: 'Proza Libre', sans-serif;
+font-family: 'Open Sans', sans-serif;
+ */
+
+/* Other colors in pallette:
+#617761
+#3c4a3c
+#112211
+#091d09 
+*/
