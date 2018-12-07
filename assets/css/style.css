@@ -20,7 +20,15 @@ p {
 }
 
 a {
-  color:#091d09;#091d09
+  color:#7aa37a;
+}
+
+a:visited {
+  color:black;
+}
+
+a:hover {
+  font-style: italic;
 }
 
 main {
@@ -42,7 +50,7 @@ nav {
 footer {
   /* text-align: right; */
   position: absolute;
-  top: 25%;
+  top: 0;
   right:0;
   margin-left: 30%;
   margin-top:40px;
@@ -62,7 +70,7 @@ footer {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background-color:#617761;
+  background-color:rgb#6c7761;
 }
 
 #topImage {
@@ -72,15 +80,92 @@ footer {
 
 #bottomImage {
   clear:both;
-  
+  width:330px;
+  height:415px;
+  opacity: .75;
   position: absolute;
   bottom: 0;
   right: 0;
 }
 
-/* .firstPs {
-  display:inline;
-} */
+/* css codde for some shapes I lifted from the Internet and adjusted to fit in the page */
+
+#circle {
+  width: 100px;
+  height: 100px;
+  background: rgb(26, 37, 26, 1);
+  border-radius: 50%;
+  position: relative;
+  top: -1010px;
+  left: 75%;
+}
+
+#circleA {
+  width: 100px;
+  height: 100px;
+  background: #617761;
+  border-radius: 50%;
+  position: relative;
+  top: -750px;
+  left: 10%;
+}
+
+#circleB {
+  width: 100px;
+  height: 100px;
+  background: #112211;
+  border-radius: 50%;
+  position: relative;
+  top: -600px;
+  left: 40%;
+}
+
+#triangle-topleft {
+  width: 0;
+  height: 0;
+  border-top: 100px solid #091d09;
+  border-right: 100px solid transparent;
+  position: relative;
+  top: -1250px;
+  left: 30%;
+}
+
+#triangle-topright {
+  width: 0;
+  height: 0;
+  border-top: 100px solid rgb(26, 37, 26, 1);
+  border-left: 100px solid transparent;
+  position: relative;
+  top: -1100px;
+  left: 85%;
+}
+
+#triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid rgb(26, 37, 26, 1);
+  position: relative;
+  top: -750px;
+  left: 75%;
+}
+
+#parallelogram {
+  width: 150px;
+  height: 100px;
+  transform: skew(20deg);
+  background: #3c4a3c;
+  position: relative;
+  top: -1300px;
+  left: 50%;
+}
+
+#circles {
+  opacity: 1;
+}
+
+
 
 /* special fonts
 font-family: 'Proza Libre', sans-serif;
